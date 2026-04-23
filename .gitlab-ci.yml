@@ -2,8 +2,8 @@ pages:
   stage: deploy
   script:
     - mkdir -p public
-    - cp index.html style.css script.js favicon.svg public/
-    - cp -r fonts public/
+    - cp index.html favicon.svg public/
+    - cp -r fonts css js public/
     - cp *.pdf public/ 2>/dev/null || true
   artifacts:
     paths:
