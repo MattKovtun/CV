@@ -629,6 +629,7 @@ body.mode-long  .short-only { display: none !important; }
 }
 .lang-level.native { background: var(--ink); color: var(--accent); }
 .lang-level.fluent { background: var(--accent); color: var(--ink); }
+.lang-level.conversational { background: color-mix(in srgb, var(--accent) 40%, transparent); color: var(--ink); }
 
 .edu-block { padding: 4px 0; }
 .edu-degree {
