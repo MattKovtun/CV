@@ -588,6 +588,13 @@ body.mode-long  .short-only { display: none !important; }
   margin-bottom: 12px;
   border-bottom: 1.5px solid var(--ink);
 }
+.side-note {
+  font-size: 9px;
+  color: var(--ink-mute);
+  margin: -6px 0 10px;
+  line-height: 1.4;
+  font-style: italic;
+}
 
 .skill-group { margin-bottom: 12px; }
 .skill-group:last-child { margin-bottom: 0; }
